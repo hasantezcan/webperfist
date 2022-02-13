@@ -1,0 +1,67 @@
+.next-event-card-wrapper {
+  margin-top: 100px;
+
+  .title {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Sarala", sans-serif;
+  }
+
+  .next-event-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    font-family: "Sarala", sans-serif;
+    background-image: url("../../public/next-event-background.png");
+    background-size: cover;
+
+    .lecturer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+
+      .avatar {
+        img {
+          width: 270px;
+          height: 270px;
+          object-fit: cover;
+          border-radius: 50%;
+          border: 3px solid white;
+        }
+        padding-bottom: 10px;
+      }
+
+      .name {
+        color: white;
+        font-size: 28px;
+
+        font-weight: bold;
+        padding-bottom: 5px;
+      }
+
+      .company-name {
+        color: white;
+        font-size: 28px;
+
+        font-style: italic;
+        font-weight: 100;
+      }
+    }
+
+    .event-name {
+      color: white;
+      font-size: 85px;
+      font-weight: 400;
+      padding-left: 50px;
+      max-width: 530px;
+      font-weight: bold;
+      font-family: "Sarala", sans-serif;
+      letter-spacing: 4px;
+      line-height: 92px;
+      text-shadow: 4px 4px rgb(0 0 0 / 60%);
+    }
+  }
+}
