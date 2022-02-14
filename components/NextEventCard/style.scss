@@ -1,67 +1,159 @@
-.next-event-card-wrapper {
-  margin-top: 100px;
+.next-event-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  font-family: "Sarala", sans-serif;
+  background-image: url("../../public/images/next-event-background.png");
+  background-size: cover;
+  margin-top: 25px;
 
-  .title {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: "Sarala", sans-serif;
-  }
-
-  .next-event-card {
+  .lecturer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 500px;
-    font-family: "Sarala", sans-serif;
-    background-image: url("../../public/next-event-background.png");
-    background-size: cover;
+    flex-direction: column;
 
-    .lecturer {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-direction: column;
-
-      .avatar {
-        img {
-          width: 270px;
-          height: 270px;
-          object-fit: cover;
-          border-radius: 50%;
-          border: 3px solid white;
-        }
-        padding-bottom: 10px;
+    .avatar {
+      img {
+        width: 270px;
+        height: 270px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid white;
       }
-
-      .name {
-        color: white;
-        font-size: 28px;
-
-        font-weight: bold;
-        padding-bottom: 5px;
-      }
-
-      .company-name {
-        color: white;
-        font-size: 28px;
-
-        font-style: italic;
-        font-weight: 100;
-      }
+      padding-bottom: 10px;
     }
 
-    .event-name {
+    .name {
       color: white;
-      font-size: 85px;
-      font-weight: 400;
-      padding-left: 50px;
-      max-width: 530px;
+      font-size: 28px;
+
       font-weight: bold;
-      font-family: "Sarala", sans-serif;
-      letter-spacing: 4px;
-      line-height: 92px;
-      text-shadow: 4px 4px rgb(0 0 0 / 60%);
+      padding-bottom: 5px;
+    }
+
+    .company-name {
+      color: white;
+      font-size: 28px;
+
+      font-style: italic;
+      font-weight: 100;
     }
   }
+
+ .next-event-content {
+   .next-event-title {
+     display: flex;
+     align-items: center;
+     padding-left: 50px;
+
+     .next-event-badge {
+       background-color: yellow;
+       padding: 5px;
+       border-radius: 6px;
+       font-size: 32px;
+       font-weight: bold;
+     }
+
+     .next-event-count-down {
+       background-color: rgba(0, 0, 0, 0.5);
+       border-radius: 6px;
+       padding: 5px;
+       font-size: 24px;
+       margin-left: 10px;
+       color: #fff;
+
+       svg{
+         width: 20px;
+         height: 20px;
+         margin-right: 5px;
+       }
+
+       .live-stream-link{
+         color: white;
+         text-decoration: none;
+         cursor: pointer;
+       }
+     }
+   }
+
+  .event-name {
+    color: white;
+    font-size: 85px;
+    font-weight: 400;
+    padding-left: 50px;
+    max-width: 530px;
+    font-weight: bold;
+    font-family: "Sarala", sans-serif;
+    letter-spacing: 4px;
+    line-height: 92px;
+    text-shadow: 4px 4px rgb(0 0 0 / 60%);
+  }
+
+  .event-detail {
+    display: flex;
+    padding-left: 50px;
+    margin-top: 30px;
+
+    .time {
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      padding-right: 10px;
+      max-width: 100px;
+      margin-right: 20px;
+      line-height: 35px;
+    }
+
+    .seperator{
+      width: 4px;
+      height: 60px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 4px;
+    }
+
+    .social-redirection {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+
+      .kommunity, .youtube{
+        display: flex;
+        align-items: center;
+      }
+      
+      .kommunity{
+        margin-bottom: 4px;
+
+        img {
+          width: 200px;
+          height: 20px;
+        }
+      }
+
+      .youtube{
+        img {
+          width: 100px;
+          height: 20px;
+        }
+      }
+
+      .kommunity>:nth-child(1),
+      .youtube>:nth-child(1){
+        background-color: rgba(255, 255, 255, 0.5);
+       padding: 5px;
+       border-radius: 6px;
+      }
+
+      .kommunity>:nth-child(2),
+      .youtube>:nth-child(2){
+       margin-left: 5px;
+       color: #fff;
+       font-size: 24px;
+      }
+    }
+  }
+ }
 }
