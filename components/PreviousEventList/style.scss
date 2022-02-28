@@ -1,0 +1,15 @@
+.previous-event-card-list-title {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif, -apple-system;
+}
+
+.previous-event-card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 120px;
+}

@@ -1,0 +1,70 @@
+.previous-event-card {
+  font-family: Helvetica, Arial, sans-serif, -apple-system;
+  height: 220px;
+  width: 45%;
+  padding: 10px 15px;
+  background-color: #fff;
+  webkit-box-shadow: 0 0 30px rgb(104 98 98 / 20%);
+  box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  .event-content {
+    width: 75%;
+    margin-left: 15px;
+    .title p {
+      font-size: 23px;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+
+    .date p {
+      font-size: 17px;
+    }
+
+    .description p {
+      margin-top: 15px;
+    }
+
+    .event-redirection-button {
+      a {
+        text-decoration: none;
+        color: #8036ca;
+      }
+
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .lecturer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+
+    .name {
+      font-size: 16px;
+    }
+
+    .company-name {
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    .avatar {
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        // border: 3px solid white;
+      }
+      padding-bottom: 10px;
+    }
+  }
+}
