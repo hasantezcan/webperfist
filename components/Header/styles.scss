@@ -1,5 +1,5 @@
 .header {
-  margin-top: 140px;
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,30 +20,6 @@
         height: 300px;
       }
     }
-    .social-media-icons {
-      padding: 5px;
-      background-color: #8037ca;
-      border-radius: 15px;
-      color: white;
-      font-family: cursive;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      flex-direction: column;
-      font-family: Helvetica, Arial, sans-serif, -apple-system;
-
-      p {
-        padding: 10px;
-        letter-spacing: 5px;
-      }
-
-      .icons {
-        a {
-          padding: 20px;
-        }
-      }
-    }
   }
 }
 
@@ -58,7 +34,7 @@
   color: #5c5a5a;
   font-size: 1.2rem;
 
-  &-link {
+  .link {
     color: #8037ca;
     text-decoration: none;
   }
