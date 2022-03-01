@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Web Vitals",
+    "description": "Measuring Web Perf, Core Vitals and Lighthouse workshop",
+    "date": "2022/10/06 19:30",
+    "kommunityUrl": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=tnlm1vnA7G4",
+    "lecturer": {
+      "name": "Eren Yener",
+      "company": "Trendyol",
+      "linkedin": "https://www.linkedin.com/in/mehmet-eren-yener-72661344/",
+      "avatar": "https://avatars.githubusercontent.com/u/13291007?v=4"
+    }
+  },
+  {
+    "title": "Optimization tips for React",
+    "description": "Best practices for lighter react renderings and other stuff",
+    "date": "2022/10/19 19:30",
+    "kommunityUrl": "",
+    "youtubeUrl": "https://www.youtube.com/watch?v=108-k_ugYxQ&t=118s",
+    "lecturer": {
+      "name": "Yunus Emre Dilber",
+      "company": "Trendyol",
+      "linkedin": "https://www.linkedin.com/in/yunusemredilber/",
+      "avatar": "https://avatars.githubusercontent.com/u/46731483?v=4"
+    }
+  },
+  {
+    "title": "Optimization tips for Vue",
+    "description": "Best practices for lighter vue renderings and other stuff",
+    "date": "2022/11/15 19:30",
+    "kommunityUrl": "https://kommunity.com/webperfist/events/optimization-tips-for-vue-db4b510a",
+    "youtubeUrl": "https://www.youtube.com/watch?v=u9KEZTNo4_k&t=122s",
+    "lecturer": {
+      "name": "Batuhan Tozun",
+      "company": "Trendyol",
+      "linkedin": "https://www.linkedin.com/in/batuhantozun/",
+      "avatar": "https://avatars.githubusercontent.com/u/8361345?v=4"
+    }
+  },
+  {
+    "title": "Challanges of Microfrontends",
+    "description": "Mess of difficulties of many servers",
+    "date": "2022/11/30 19:30",
+    "kommunityUrl": "https://kommunity.com/webperfist/events/challanges-of-microfrontends-898398c2",
+    "youtubeUrl": "https://www.youtube.com/watch?v=i7BwkovN7qU&t=109s",
+    "lecturer": {
+      "name": "Ahmet Can Güven",
+      "company": "Trendyol",
+      "linkedin": "https://www.linkedin.com/in/acanguven/",
+      "avatar": "https://avatars.githubusercontent.com/u/987174?v=4"
+    }
+  },
+  {
+    "title": "The State of Web Workers",
+    "description": "Unlocking new capabilities for the web using workers.",
+    "date": "2021/12/14 19:30",
+    "kommunityUrl": "https://kommunity.com/webperfist/events/the-state-of-web-workers-69b17eb2",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ftxW3OnSJfE&t=4s",
+    "lecturer": {
+      "name": "Hasan Genç",
+      "company": "Trendyol",
+      "linkedin": "https://www.linkedin.com/in/hasangenc0/",
+      "avatar": "https://avatars.githubusercontent.com/u/26026780?v=4"
+    }
+  },
+  {
+    "title": "Image Optimization",
+    "description": "Modern avatar Technologies",
+    "date": "2022/01/17 19:30",
+    "kommunityUrl": "https://kommunity.com/webperfist/events/image-optimization-00d7846e",
+    "youtubeUrl": "https://www.youtube.com/watch?v=tuschCXZBP4",
+    "lecturer": {
+      "name": "Batın Eryılmaz",
+      "company": "Trendyol",
+      "linkedin": "https://www.linkedin.com/in/batineryilmaz/",
+      "avatar": "https://avatars.githubusercontent.com/u/34899913?v=4"
+    }
+  },
+  {
+    "title": "3rd party performance",
+    "description": "GTM, Google Analytics, Tiktok and Facebook and many others killing web",
+    "date": "2022/02/07 19:30",
+    "kommunityUrl": "https://kommunity.com/webperfist/events/optimizing-3rd-party-performance-f514b2c7",
+    "youtubeUrl": "https://www.youtube.com/watch?v=fXD7PWXlOwA",
+    "lecturer": {
+      "name": "Mert Tosun",
+      "company": "Trendyol",
+      "linkedin": "https://www.linkedin.com/in/mert-tosun-39777b193/",
+      "avatar": "https://avatars.githubusercontent.com/u/19984993?v=4"
+    }
+  }
+]

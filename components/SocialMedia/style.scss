@@ -10,6 +10,12 @@
     height: 32px;
     gap: 43px;
 
+    a:hover {
+      border-bottom: 2px solid #8037ca;
+      transition-timing-function: ease-out;
+      transition: 0.1s;
+    }
+
     .kommunity {
       img {
         width: 26px;

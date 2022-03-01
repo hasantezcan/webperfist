@@ -43,117 +43,116 @@
     }
   }
 
- .next-event-content {
-   .next-event-title {
-     display: flex;
-     align-items: center;
-     padding-left: 50px;
-
-     .next-event-badge {
-       background-color: yellow;
-       padding: 5px;
-       border-radius: 6px;
-       font-size: 32px;
-       font-weight: bold;
-     }
-
-     .next-event-count-down {
-       background-color: rgba(0, 0, 0, 0.5);
-       border-radius: 6px;
-       padding: 5px;
-       font-size: 24px;
-       margin-left: 10px;
-       color: #fff;
-
-       svg{
-         width: 20px;
-         height: 20px;
-         margin-right: 5px;
-       }
-
-       .live-stream-link{
-         color: white;
-         text-decoration: none;
-         cursor: pointer;
-       }
-     }
-   }
-
-  .event-name {
-    color: white;
-    font-size: 85px;
-    font-weight: 400;
-    padding-left: 50px;
-    max-width: 530px;
-    font-weight: bold;
-    font-family: "Sarala", sans-serif;
-    letter-spacing: 4px;
-    line-height: 92px;
-    text-shadow: 4px 4px rgb(0 0 0 / 60%);
-  }
-
-  .event-detail {
-    display: flex;
-    padding-left: 50px;
-    margin-top: 30px;
-
-    .time {
-      color: white;
-      font-size: 28px;
-      font-weight: bold;
-      padding-right: 10px;
-      max-width: 100px;
-      margin-right: 20px;
-      line-height: 35px;
-    }
-
-    .seperator{
-      width: 4px;
-      height: 60px;
-      background-color: rgba(255, 255, 255, 0.5);
-      border-radius: 4px;
-    }
-
-    .social-redirection {
+  .next-event-content {
+    .next-event-title {
       display: flex;
-      flex-direction: column;
-      margin-left: 20px;
+      align-items: center;
+      padding-left: 50px;
 
-      .kommunity, .youtube{
-        display: flex;
-        align-items: center;
+      .next-event-badge {
+        background-color: yellow;
+        padding: 5px;
+        border-radius: 6px;
+        font-size: 32px;
+        font-weight: bold;
       }
-      
-      .kommunity{
-        margin-bottom: 4px;
 
-        img {
-          width: 200px;
+      .next-event-count-down {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 6px;
+        padding: 5px;
+        font-size: 24px;
+        margin-left: 10px;
+        color: #fff;
+
+        svg {
+          width: 20px;
           height: 20px;
+          margin-right: 5px;
+        }
+
+        .live-stream-link {
+          color: white;
+          text-decoration: none;
+          cursor: pointer;
         }
       }
+    }
 
-      .youtube{
-        img {
+    .event-name {
+      color: white;
+      font-size: 85px;
+      font-weight: 400;
+      padding-left: 50px;
+      max-width: 530px;
+      font-weight: bold;
+      font-family: "Sarala", sans-serif;
+      letter-spacing: 4px;
+      line-height: 92px;
+      text-shadow: 4px 4px rgb(0 0 0 / 60%);
+    }
+
+    .event-detail {
+      display: flex;
+      padding-left: 50px;
+      margin-top: 30px;
+
+      .time {
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        padding-right: 10px;
+        max-width: 100px;
+        margin-right: 20px;
+        line-height: 35px;
+      }
+
+      .seperator {
+        width: 4px;
+        height: 60px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
+      }
+
+      .social-redirection {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+        .kommunity,
+        .youtube {
+          display: flex;
+          align-items: center;
+        }
+
+        .kommunity {
+          margin-bottom: 4px;
+
+          a img {
+            width: 200px;
+            height: 20px;
+          }
+        }
+
+        .youtube a img {
           width: 100px;
           height: 20px;
         }
-      }
 
-      .kommunity>:nth-child(1),
-      .youtube>:nth-child(1){
-        background-color: rgba(255, 255, 255, 0.5);
-       padding: 5px;
-       border-radius: 6px;
-      }
+        .kommunity > :nth-child(1),
+        .youtube > :nth-child(1) {
+          background-color: rgba(255, 255, 255, 0.5);
+          padding: 5px;
+          border-radius: 6px;
+        }
 
-      .kommunity>:nth-child(2),
-      .youtube>:nth-child(2){
-       margin-left: 5px;
-       color: #fff;
-       font-size: 24px;
+        .kommunity > :nth-child(2),
+        .youtube > :nth-child(2) {
+          margin-left: 5px;
+          color: #fff;
+          font-size: 24px;
+        }
       }
     }
   }
- }
 }

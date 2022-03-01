@@ -1,19 +1,15 @@
 import React from "react";
 import { PreviousEventCard } from "../PreviousEventCard";
+import events from "../../data/events.json";
 
 const PreviousEventList = () => {
   return (
     <>
       <h1 className="previous-event-card-list-title">Geçmiş Etkinlikler</h1>
       <div className="previous-event-card-list">
-        <PreviousEventCard />
-        <PreviousEventCard />
-        <PreviousEventCard />
-        <PreviousEventCard />
-        <PreviousEventCard />
-        <PreviousEventCard />
-        <PreviousEventCard />
-        <PreviousEventCard />
+        {events.map((event) => (
+          <PreviousEventCard event={event} />
+        ))}
       </div>
     </>
   );

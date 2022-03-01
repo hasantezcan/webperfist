@@ -1,38 +1,52 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
+import { Event } from "../../models/events";
+interface PreviousEventCardProps {
+  event: Event;
+}
 
-const PreviousEventCard = () => {
+const PreviousEventCard: FunctionComponent<PreviousEventCardProps> = ({
+  event,
+}) => {
+  const { title, date, description, youtubeUrl, lecturer } = event;
+
+  const eventDate = new Date(date);
   return (
     <div className="previous-event-card">
       <div className="event-content">
         <div className="title">
-          <p>3rd party performance</p>
+          <p>{title}</p>
         </div>
         <div className="date">
-          <p>7 Şubat 2021</p>
+          <p>
+            {eventDate.toLocaleString("tr-TR", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </p>
         </div>
         <div className="description">
-          <p>Measuring Web Perf, Core Vitals and Lighthouse workshop</p>
+          <p>{description}</p>
         </div>
         <div className="event-redirection-button">
-          <a href="https://www.youtube.com/webperfist">
+          <a href={youtubeUrl} target="_blank">
             <p>Yayın kaydına Git!</p>
           </a>
         </div>
       </div>
-      <div className="lecturer">
-        <div className="avatar">
-          <img
-            src="https://avatars.githubusercontent.com/u/32804505?v=4"
-            alt=""
-          />
+      <a className="lecturer-wrapper" href={lecturer.linkedin} target="_blank">
+        <div className="lecturer">
+          <div className="avatar">
+            <img src={lecturer.avatar} alt="" />
+          </div>
+          <div className="name">
+            <p>{lecturer.name}</p>
+          </div>
+          <div className="company-name">
+            <p>"{lecturer.company}"</p>
+          </div>
         </div>
-        <div className="name">
-          <p>Hasan Tezcan</p>
-        </div>
-        <div className="company-name">
-          <p>"Trendyol"</p>
-        </div>
-      </div>
+      </a>
     </div>
   );
 };

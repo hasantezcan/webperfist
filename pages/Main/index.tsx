@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { NextEventCard } from "../../components/NextEventCard";
 import { PreviousEventList } from "../../components/PreviousEventList";
@@ -8,6 +9,7 @@ const Main = () => {
       <Header />
       <NextEventCard />
       <PreviousEventList />
+      <Footer />
     </main>
   );
 };

@@ -14,10 +14,12 @@
   .event-content {
     width: 75%;
     margin-left: 15px;
+
     .title p {
       font-size: 23px;
       font-weight: bold;
       line-height: 1.3;
+      margin-bottom: 5px;
     }
 
     .date p {
@@ -40,31 +42,38 @@
     }
   }
 
-  .lecturer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .lecturer-wrapper {
+    text-decoration: none;
     width: 25%;
+    color: black;
+    
+    .lecturer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
-    .name {
-      font-size: 16px;
-    }
-
-    .company-name {
-      font-size: 14px;
-      margin-top: 4px;
-    }
-
-    .avatar {
-      img {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-        border-radius: 50%;
-        // border: 3px solid white;
+      .name {
+        font-size: 16px;
+        white-space: nowrap;
       }
-      padding-bottom: 10px;
+
+      .company-name {
+        font-size: 14px;
+        margin-top: 4px;
+        font-style: italic;
+      }
+
+      .avatar {
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          border-radius: 50%;
+          // border: 3px solid white;
+        }
+        padding-bottom: 10px;
+      }
     }
   }
 }
