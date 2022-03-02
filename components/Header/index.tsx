@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { socialMedia } from "../../data/socialMedia.json";
 import { SocialMedia } from "../SocialMedia";
 
@@ -6,13 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="left">
-        <Image
-          className="logo"
-          src="/images/logo.svg"
-          alt="Webperfist Logo"
-          height={72}
-          width={297}
-        />
+        <img className="logo" src="/images/logo.svg" alt="Webperfist Logo" />
 
         <p className="info">
           Web performans üzerine odaklanmış bir topluluktur. Amacımız

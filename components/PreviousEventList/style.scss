@@ -13,3 +13,9 @@
   gap: 30px;
   margin-bottom: 120px;
 }
+
+@media only screen and (max-width: 400px) {
+  .previous-event-card-list {
+    justify-content: center;
+  }
+}

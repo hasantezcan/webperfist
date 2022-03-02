@@ -2,7 +2,7 @@
   {
     "title": "Web Vitals",
     "description": "Measuring Web Perf, Core Vitals and Lighthouse workshop",
-    "date": "2022/10/06 19:30",
+    "date": "2021/10/06 19:30",
     "kommunityUrl": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=tnlm1vnA7G4",
     "lecturer": {
@@ -15,7 +15,7 @@
   {
     "title": "Optimization tips for React",
     "description": "Best practices for lighter react renderings and other stuff",
-    "date": "2022/10/19 19:30",
+    "date": "2021/10/19 19:30",
     "kommunityUrl": "",
     "youtubeUrl": "https://www.youtube.com/watch?v=108-k_ugYxQ&t=118s",
     "lecturer": {
@@ -28,7 +28,7 @@
   {
     "title": "Optimization tips for Vue",
     "description": "Best practices for lighter vue renderings and other stuff",
-    "date": "2022/11/15 19:30",
+    "date": "2021/11/15 19:30",
     "kommunityUrl": "https://kommunity.com/webperfist/events/optimization-tips-for-vue-db4b510a",
     "youtubeUrl": "https://www.youtube.com/watch?v=u9KEZTNo4_k&t=122s",
     "lecturer": {
@@ -41,7 +41,7 @@
   {
     "title": "Challanges of Microfrontends",
     "description": "Mess of difficulties of many servers",
-    "date": "2022/11/30 19:30",
+    "date": "2021/11/30 19:30",
     "kommunityUrl": "https://kommunity.com/webperfist/events/challanges-of-microfrontends-898398c2",
     "youtubeUrl": "https://www.youtube.com/watch?v=i7BwkovN7qU&t=109s",
     "lecturer": {

@@ -24,7 +24,7 @@
 }
 
 .logo {
-  margin-left: -10px !important;
+  width: 298px;
 }
 
 .info {
@@ -37,5 +37,25 @@
   .link {
     color: #8037ca;
     text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    .left {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }
+
+  .logo {
+    width: 70%;
+    padding: 0 10px;
+  }
+
+  .info {
+    padding: 0 20px;
   }
 }

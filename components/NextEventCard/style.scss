@@ -95,7 +95,7 @@
     .event-detail {
       display: flex;
       padding-left: 50px;
-      margin-top: 30px;
+      margin-top: 20px;
 
       .time {
         color: white;
@@ -151,6 +151,64 @@
           margin-left: 5px;
           color: #fff;
           font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .next-event-card {
+    height: 720px;
+    flex-direction: column-reverse;
+
+    .lecturer {
+      margin-top: 20px;
+      .avatar {
+        img {
+          width: 220px;
+          height: 220px;
+        }
+      }
+    }
+
+    .next-event-content {
+      .next-event-title {
+        padding-left: unset;
+        flex-direction: column;
+
+        .next-event-count-down {
+          margin-left: unset;
+        }
+      }
+
+      .event-name {
+        font-size: 44px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 62px;
+        padding-left: unset;
+      }
+
+      .event-detail {
+        align-items: center;
+        flex-direction: column;
+        padding-left: unset;
+
+        .time {
+          white-space: nowrap;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 15px;
+          padding: unset;
+        }
+
+        .seperator {
+          display: none;
+        }
+
+        .social-redirection {
+          margin-left: unset;
         }
       }
     }

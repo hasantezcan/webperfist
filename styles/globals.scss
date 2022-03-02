@@ -129,3 +129,10 @@ table {
 }
 
 @import "./styles.scss";
+
+@media only screen and (max-width: 400px) {
+  .container {
+    display: unset;
+    justify-content: unset;
+  }
+}

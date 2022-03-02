@@ -28,3 +28,11 @@
     }
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .social-media-icons {
+    .icons {
+      justify-content: center;
+    }
+  }
+}
