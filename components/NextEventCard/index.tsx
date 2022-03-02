@@ -6,7 +6,6 @@ import events from "../../data/events.json";
 
 const NextEventCard = () => {
   const nextEvent = events[events.length - 1];
-  console.log("🚀 ============================ > nextEvent", nextEvent);
 
   const { title, date, kommunityUrl, youtubeUrl, lecturer } = nextEvent;
 
@@ -39,7 +38,7 @@ const NextEventCard = () => {
           <p>{lecturer.name}</p>
         </div>
         <div className="company-name">
-          <p>"{lecturer.company}"</p>
+          <p>{`"${lecturer.company}"`}</p>
         </div>
       </div>
       <div className="next-event-content">
@@ -67,13 +66,13 @@ const NextEventCard = () => {
           <div className="seperator"></div>
           <div className="social-redirection">
             <div className="kommunity">
-              <a href={kommunityUrl} target="_blank">
+              <a href={kommunityUrl} target="_blank" rel="noreferrer">
                 <img src="/images/kommunity-logo.svg" alt="Kommunity" />
               </a>
               <p>ile katıl</p>
             </div>
             <div className="youtube">
-              <a href={youtubeUrl} target="_blank">
+              <a href={youtubeUrl} target="_blank" rel="noreferrer">
                 <img src="/images/youtube-logo.svg" alt="Youtube" />
               </a>
               <p>hatırlatıcısı ekle</p>

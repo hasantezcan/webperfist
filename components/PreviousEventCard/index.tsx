@@ -29,12 +29,17 @@ const PreviousEventCard: FunctionComponent<PreviousEventCardProps> = ({
           <p>{description}</p>
         </div>
         <div className="event-redirection-button">
-          <a href={youtubeUrl} target="_blank">
+          <a href={youtubeUrl} target="_blank" rel="noreferrer">
             <p>Yayın kaydına Git!</p>
           </a>
         </div>
       </div>
-      <a className="lecturer-wrapper" href={lecturer.linkedin} target="_blank">
+      <a
+        className="lecturer-wrapper"
+        href={lecturer.linkedin}
+        target="_blank"
+        rel="noreferrer"
+      >
         <div className="lecturer">
           <div className="avatar">
             <img src={lecturer.avatar} alt="" />
@@ -43,7 +48,7 @@ const PreviousEventCard: FunctionComponent<PreviousEventCardProps> = ({
             <p>{lecturer.name}</p>
           </div>
           <div className="company-name">
-            <p>"{lecturer.company}"</p>
+            <p>{`"${lecturer.company}"`}</p>
           </div>
         </div>
       </a>

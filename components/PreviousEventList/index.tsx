@@ -8,7 +8,7 @@ const PreviousEventList = () => {
       <h1 className="previous-event-card-list-title">Geçmiş Etkinlikler</h1>
       <div className="previous-event-card-list">
         {events.map((event) => (
-          <PreviousEventCard event={event} />
+          <PreviousEventCard key={event.date} event={event} />
         ))}
       </div>
     </>
