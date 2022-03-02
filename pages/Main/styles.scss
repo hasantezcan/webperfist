@@ -2,6 +2,15 @@
   width: 1110px;
 }
 
+.speaker-form-iframe {
+  width: 100%;
+  height: 800px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 450px) {
   .main {
     width: unset;
