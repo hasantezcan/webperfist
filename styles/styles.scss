@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap");
 
-@import "../components/Footer/styles.scss";
-@import "../components/Header/styles.scss";
-@import "../components/NextEventCard/style.scss";
-@import "../components/PreviousEventCard/style.scss";
-@import "../components/PreviousEventList/style.scss";
-@import "../components/SocialMedia/style.scss";
+@import "../components/Footer/styles";
+@import "../components/Header/styles";
 
-@import "../pages/Main/styles.scss";
+@import "../components/Banner/NextEventCard/style.scss";
+@import "../components/Banner/NoEventCard/style.scss";
+
+@import "../components/Header/styles.scss";
+@import "../components/Header/SocialMedia/style.scss";
+
+@import "../components/PreviousEventList/style.scss";
+@import "../components/PreviousEventList/PreviousEventCard/style.scss";
+@import "../components/LecturerForm/style";
+
+@import "../pages/Main/styles";

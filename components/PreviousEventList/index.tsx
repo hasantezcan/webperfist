@@ -1,5 +1,5 @@
 import React from "react";
-import { PreviousEventCard } from "../PreviousEventCard";
+import { PreviousEventCard } from "./PreviousEventCard";
 import events from "../../data/events.json";
 
 const PreviousEventList = () => {

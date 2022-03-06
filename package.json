@@ -1,6 +1,10 @@
 {
   "name": "webperfist",
   "private": true,
+  "author": {
+    "name": "Hasan Tezcan",
+    "email": "hasantezcan77@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../data/socialMedia.json";
+import data from "../../../data/socialMedia.json";
 
 const { socialMedia } = data;
 

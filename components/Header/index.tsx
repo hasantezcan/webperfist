@@ -1,4 +1,4 @@
-import { SocialMedia } from "../SocialMedia";
+import { SocialMedia } from "./SocialMedia";
 import data from "../../data/socialMedia.json";
 
 const { socialMedia } = data;

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import { Event } from "../../models/events";
+import { Event } from "../../../models/events";
 interface PreviousEventCardProps {
   event: Event;
 }
@@ -28,11 +28,13 @@ const PreviousEventCard: FunctionComponent<PreviousEventCardProps> = ({
         <div className="description">
           <p>{description}</p>
         </div>
-        <div className="event-redirection-button">
-          <a href={youtubeUrl} target="_blank" rel="noreferrer">
-            <p>Yayın kaydına Git!</p>
-          </a>
-        </div>
+        {eventDate.getTime() < Date.now() && (
+          <div className="event-redirection-button">
+            <a href={youtubeUrl} target="_blank" rel="noreferrer">
+              <p>Yayın kaydına Git!</p>
+            </a>
+          </div>
+        )}
       </div>
       <a
         className="lecturer-wrapper"
