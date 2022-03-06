@@ -1,6 +1,4 @@
-const LiveImageSvg = () => {
-  return (
-    <svg
+ <svg
       width="44"
       height="44"
       viewBox="0 0 44 44"
@@ -54,7 +52,3 @@ const LiveImageSvg = () => {
         </circle>
       </g>
     </svg>
-  );
-};
-
-export default LiveImageSvg;
